@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Qikig.App</Title>
+    <PackageProjectUrl>https://github.com/qikig/Qikig.App.Extension</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/qikig/Qikig.App.Extension</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.3.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
+    <PackageReference Include="FreeRedis" Version="1.4.0" />
+    <PackageReference Include="FreeSql" Version="3.5.207" />
+    <PackageReference Include="FreeSql.Provider.MySqlConnector" Version="3.5.207" />
+    <PackageReference Include="FreeSql.Repository" Version="3.5.207" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.17" />
+    <PackageReference Include="MySql.Data" Version="9.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Serilog" Version="4.3.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="9.0.2" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+    <PackageReference Include="Serilog.Sinks.MariaDB" Version="1.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="8.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="8.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="8.1.4" />
+    <PackageReference Include="Yitter.IdGenerator" Version="1.0.14" />
+  </ItemGroup>
+
+</Project>
